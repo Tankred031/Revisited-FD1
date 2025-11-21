@@ -19,3 +19,24 @@ ul li::before {
 ol {
     list-style-type: armenian;
 }
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-left: 6px;
+  color: #fff;
+  border-radius: 4px;       /* optional: rounded corners */
+  font-weight: bold;
+}
+
+.strong {
+  background-color: #e74c3c;   /* red */
+}
+
+.weak {
+  background-color: #f1c40f;   /* yellow */
+  color: #000;                 /* text readable on yellow */
+}
+
+.normal {
+  background-color: #3498db;   /* blue */
+}
