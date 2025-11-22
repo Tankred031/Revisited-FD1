@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#box {
+  background: yellow;
+  padding: 20px;
+  width: max-content;
+  border-radius: 8px;
+}
+
+#message {
+  color: blue;
+  transition: color 0.4s ease;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
