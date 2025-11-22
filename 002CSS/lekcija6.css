@@ -1,0 +1,17 @@
+div {
+        background-color: hsl(120, 100%, 50%);
+}
+body{
+    background-color: rgb(0, 0, 0.5);
+}
+h1{
+    color: #de1205;
+}
+header{
+    background-color: rgb(red, 0, blue);
+}
+footer {
+    background-color: rgb(0, green, blue);
+
+
+}
