@@ -1,0 +1,27 @@
+.container
+│
+├── header
+│     ├── h1 (main title: "Osnove CSS rasporeda")
+│     └── h2 (subtitle: "Tri ključne tehnike: Flexbox, Grid i Float")
+│
+├── section.flexbox
+│     ├── h2 (title: "1. Fleksibilni model kutija (Flexbox)")
+│     └── p (description of Flexbox with example of items in a row)
+│     └── div (for the Flexbox example: "Stavka 1", "Stavka 2", "Stavka 3")
+│
+├── section.grid
+│     ├── h2 (title: "2. Dvodimenzionalni model mreže (CSS Grid)")
+│     └── p (description of CSS Grid with an example layout)
+│     └── div (grid layout with different sections: "Zaglavlje", "Nav", "Sadržaj", "Podnožje")
+│
+├── section.float
+│     ├── h2 (title: "3. Klasični rasporedi (Float & Columns)")
+│     └── p (description of Float layout with example)
+│     └── div (example showing "Float lijevo" and other float behaviors)
+│
+├── section.info
+│     ├── p (additional information about Flexbox, Grid, and Float relevance)
+│
+└── footer
+      ├── p (contact info or footer note)
+      └── p (date or copyright info)

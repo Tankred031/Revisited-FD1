@@ -1,0 +1,52 @@
+.container
+│
+├── header
+│     ├── h1 (main title - "Bušenje Kamena")
+│     └── nav (navigation links)
+│          ├── a (Početna)
+│          ├── a (Usluge)
+│          ├── a (Cjenik)
+│          └── a (Kontakt)
+│
+├── section.hero
+│     ├── h2 (tagline - "Preciznost u svakom milimetru")
+│     └── a (call-to-action button - "Zatražite Ponudu")
+│
+├── section.usluge
+│     ├── h2 (title - "Naše Usluge")
+│     ├── div.service (individual service box)
+│     │     ├── h3 (service title - "Dijamantno bušenje")
+│     │     └── p (description)
+│     ├── div.service (individual service box)
+│     │     ├── h3 (service title - "Rezaenje betona")
+│     │     └── p (description)
+│     └── div.service (individual service box)
+│           ├── h3 (service title - "Obrada kamena")
+│           └── p (description)
+│
+├── section.o-tvrtki
+│     ├── h2 (title - "O tvrtki")
+│     └── p (description about the company)
+│
+├── section.cjenik
+│     ├── h2 (title - "Okvirni cjenik usluga")
+│     └── table (pricing table)
+│          ├── tr (row)
+│          │    ├── td (service name)
+│          │    ├── td (unit)
+│          │    └── td (price)
+│          └── tr (other rows for more pricing options)
+│
+├── section.contact-form
+│     ├── h2 (title - "Pošaljite upit")
+│     ├── form
+│     │    ├── input (name)
+│     │    ├── input (email)
+│     │    ├── select (work type)
+│     │    ├── textarea (work description)
+│     │    └── button (submit button - "Pošaljite upit")
+│     └── div (current workload progress bar)
+│
+└── footer
+      ├── p (contact info - company address, email)
+      └── p (copyright text)

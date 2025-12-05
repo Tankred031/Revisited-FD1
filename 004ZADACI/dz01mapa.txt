@@ -1,0 +1,21 @@
+.container
+│
+├── header
+│     ├── h1 (main title: "DOBRODOŠLI NA MREŽNU STRANICU")
+│     └── h2 (subtitle: "Evo što trebate napraviti!")
+│
+├── section.instructions
+│     ├── p (instructions text: "Koristeći HTML i CSS, rekreirajte ovu stranicu.")
+│
+├── section.details
+│     ├── p (text highlighting important parts: "Obratite pažnju na stil teksta, boje, veličinu, dekoraciju.")
+│
+├── section.checklist
+│     ├── ul (unordered list of items)
+│     │     ├── li (item 1: "Naslovi: h1, h2")
+│     │     ├── li (item 2: "Tekst: p, strong, em, mark, span")
+│     │     └── li (item 3: "Link: a (postavite boju #FF6600)")
+│
+├── footer
+│     ├── p (closing note: "Srečno! Vaš budući Frontend Developer.")
+│     └── p (commented out note: "<!-- Naputak: Koristite <link> oznaku u <head> oznaci! -->")

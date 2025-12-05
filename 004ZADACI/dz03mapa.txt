@@ -1,0 +1,27 @@
+.container
+│
+├── header
+│     ├── h1 (big title)
+│     └── h2 (subtitle)
+│
+├── section.intro
+│     └── p (first paragraph)
+│
+├── figure (image + caption)
+│
+├── section.versions
+│     ├── h2
+│     └── list of versions
+│
+├── section.structure
+│     ├── h2
+│     └── code block
+│
+├── section.terms
+│     └── definitions
+│
+├── section.philosophy
+│     └── blockquote
+│
+└── footer
+      └── contact, date
