@@ -1,0 +1,23 @@
+PAGE
+│
+├── Header
+│   ├── Title
+│   └── Subtitle
+│
+├── Navigation bar
+│   ├── Radnja
+│   ├── Likovi
+│   └── Piši nam
+│
+├── Main content
+│   ├── Section: O čemu se radi?
+│   │   ├── Text (left)
+│   │   └── Video (right)
+│   │
+│   ├── Section: Glavni likovi
+│   │   └── Table
+│   │
+│   └── Section: Pošalji pismo
+│       └── Form
+│
+└── Footer
