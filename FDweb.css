@@ -1,6 +1,12 @@
 body{
     font-family: sans-serif;
     padding-left: 10px;
+    border: 1px solid;
+    margin: 20px;
+}
+section{
+    padding: 10px;
+    
 }
 
 h1{
@@ -9,6 +15,8 @@ h1{
     font-family: sans-serif;
     padding-top: 20px;
 }
+
+hr{color: silver; width: 80%; height: 2px;}
 
 .courier{font-family: Courier, monospace;}
 
@@ -28,9 +36,28 @@ ul li:nth-child(1):before, li:nth-child(4):before, li:nth-child(5):before {conte
 ol{
     list-style-type: lower-greek;
 }
+
+.stupac{
+    column-count: 2;
+    column-width: 30%;
+    column-gap: 1rem;
+    padding: 10px;
+}
+
+.stupac2{
+    
+    align-self: center;
+    padding-right: 40px;
+    width: 90%;
+}
+
 .oblikovanje{
     text-transform: capitalize;
     color: hotpink;
     text-decoration: dashed;
     font-style: italic;
+    background-color: silver;
+    font-family: Arial, sans-serif;
 }
+
+
