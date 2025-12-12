@@ -61,10 +61,31 @@ ol{
 }
 
 .obrub{
-    border: 2px solid hotpink;
+    border: 2px solid deeppink;
     border-radius: 6px;
     padding: 5px;
     margin: 2px;
+}
+
+.linija{
+    background-color: tomato; 
+    
+}
+
+.kraj{
+    font-display: block;
+    font-family: serif;
+    text-decoration: double;
+    color: lightseagreen; 
+}
+
+.link{
+    color: blueviolet;
+    padding-left: 30px;
+    text-decoration: wavy underline; 
+    text-decoration-color: darkseagreen;
+
+
 }
 
 

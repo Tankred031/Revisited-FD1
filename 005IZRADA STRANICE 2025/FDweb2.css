@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    padding-left: 10px;
+    margin: 20px;
+}
+section{
+    padding: 10px;
+    
+}
+
+h1{
+    color: green;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+hr{color: silver; width: 80%; height: 2px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.link{
+    color: blueviolet;
+    padding-left: 30px;
+    text-decoration: wavy underline; 
+    text-decoration-color: darkseagreen;
