@@ -32,7 +32,7 @@ hr{color: black; width: 80%; height: 2px;}
 
 .box{
     display: block;
-    background-color: silver;
+    background-color: peachpuff;
     margin: 10px;
     padding: 25px;
     width: 30%;
@@ -58,11 +58,11 @@ hr{color: black; width: 80%; height: 2px;}
 }
 
 .okvir{
-    background-color: skyblue;
+    background-color: papayawhip;
     color: whitesmoke;
     -webkit-text-stroke: 1px red;
     font-family: sans-serif;
-    width: 50%;
+    width: 40%;
     box-sizing: content-box;
     font-weight: bold;
     display: inline-block;
@@ -73,7 +73,8 @@ hr{color: black; width: 80%; height: 2px;}
     margin: 35px;
     border: solid grey 2px;
     border-radius: 8px;
-    padding: 20px;    
+    padding: 15px;
+    
     
 }
 .podokvir{
@@ -81,21 +82,83 @@ hr{color: black; width: 80%; height: 2px;}
     transform: skewX(30deg);
 }
 
+u{
+    text-decoration: wavy underline;
+    text-decoration-color: red;
+}
 
+.okret{
+    display: inline-block;
+    transform: rotate(180deg);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-.link{
+caption{
+    box-sizing: border-box;
+    border: 1px solid mediumvioletred;
+    border-bottom: none;
+    background-color: antiquewhite;
+    padding: 10px;
+    font-family: serif;
+    font-weight: bolder;
+    text-align: center;
     color: blueviolet;
-    padding-left: 30px;
-    text-decoration: wavy underline; 
+}
+
+table{width: 100%; height: 60vh;}
+
+table, th, td{
+    border: 1px solid maroon;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+tr:nth-child(2), tr:nth-child(4),tr:nth-child(6),tr:last-child{
+    background-color: gainsboro;
+}
+thead th{
+    background-color: blanchedalmond;
+    text-transform: uppercase;
+
+}
+tbody td:first-child{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody td span{
+    background-color: antiquewhite;
+    font-family: Courier, monospace;
+}
+tbody tr:hover{
+    background-color: mediumpurple;
+}
+
+
+
+
+
+.former{
+    color: darkviolet;
+    font-display: block;
+    
+
+}
+
+.latter{
+    color: darkorchid;
+    font-display: block;
+
+}
+
+.link1{
+    color: darkmagenta;
+    padding-left: 5px;
     text-decoration-color: darkseagreen;
+}
+
+.link2{
+    color: orangered;
+    padding-left: 10px;
+    text-decoration: none;
+}
