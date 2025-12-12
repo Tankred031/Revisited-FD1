@@ -1,12 +1,18 @@
 body{
     font-family: Courier, monospace;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 h1{
     color: blue;
     text-align: center;
+    font-family: sans-serif;
 }
+
+h3, ul, ol{
+    font-family: sans-serif;
+}
+
 
 ul{
     list-style: none;
