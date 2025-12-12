@@ -1,0 +1,15 @@
+body{
+    background-color: #eee;
+}
+.box {
+  padding: 10px;
+  background: lightblue;
+  margin-bottom: 10px;
+}
+.block {
+  display: block;
+}
+
+
+
+

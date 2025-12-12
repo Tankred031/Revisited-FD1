@@ -1,0 +1,19 @@
+body{
+    background-color: silver;
+    font-family: Courier, monospace;
+}
+
+h1{
+    color: skyblue;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+li:nth-child(2):before, li:nth-child(3){content: '😵‍💫';}
+li:nth-child(1):before, li:nth-child(4), li:nth-child(5){content: '😏';}
+
+ol{
+    list-style-type: disc;
+}

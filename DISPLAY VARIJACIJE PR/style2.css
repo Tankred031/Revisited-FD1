@@ -1,0 +1,8 @@
+body{
+    background-color: #eee;
+}
+
+.inline {
+  display: inline;
+  padding: 10px; /* Won't affect layout vertically */
+}
