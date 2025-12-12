@@ -51,12 +51,20 @@ ol{
 }
 
 .oblikovanje{
-    text-transform: capitalize;
-    color: hotpink;
+    text-transform: uppercase;
+    color: red;
     text-decoration: dashed;
     font-style: italic;
+    font-weight: bolder;
     background-color: silver;
     font-family: Arial, sans-serif;
+}
+
+.obrub{
+    border: 2px solid hotpink;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 2px;
 }
 
 
