@@ -54,9 +54,9 @@ hr{color: black; width: 80%; height: 2px;}
     gap: 3rem;
     border: black solid ;
     padding: 10px;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
+
 .okvir{
     background-color: skyblue;
     color: whitesmoke;
@@ -76,10 +76,11 @@ hr{color: black; width: 80%; height: 2px;}
     padding: 20px;    
     
 }
-.okvir .podokvir{
+.podokvir{
     display: inline-block;
     transform: skewX(30deg);
 }
+
 
 
 
