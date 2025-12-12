@@ -1,19 +1,19 @@
 body{
-    background-color: silver;
     font-family: Courier, monospace;
+    padding: 10px;
 }
 
 h1{
-    color: skyblue;
+    color: blue;
     text-align: center;
 }
 
 ul{
     list-style: none;
 }
-li:nth-child(2):before, li:nth-child(3){content: '😵‍💫';}
-li:nth-child(1):before, li:nth-child(4), li:nth-child(5){content: '😏';}
+ul li:nth-child(2):before, li:nth-child(3):before {content: '😵‍💫';}
+ul li:nth-child(1):before, li:nth-child(4):before, li:nth-child(5):before {content: '😏';}
 
 ol{
-    list-style-type: disc;
+    list-style-type: lower-greek;
 }
