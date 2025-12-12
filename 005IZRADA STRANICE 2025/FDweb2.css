@@ -1,10 +1,16 @@
 body{
-    font-family: sans-serif;
-    padding-left: 10px;
-    margin: 20px;
+    background-color: skyblue;
+    background-image: radial-gradient(ellipse, red, 1px, transparent 1px);
+    background-size: 25px 25px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    
 }
 section{
     padding: 10px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    margin: 20px;
     
 }
 
@@ -15,12 +21,65 @@ h1{
     padding-top: 20px;
 }
 
-hr{color: silver; width: 80%; height: 2px;}
+hr{color: black; width: 80%; height: 2px;}
 
+.former{
+    text-align: right;
+    padding-right: 15px;
+    color: brown;
+    
+}
 
+.box{
+    display: block;
+    background-color: silver;
+    margin: 10px;
+    padding: 25px;
+    width: 30%;
+    border-left: 5px solid darkviolet;
+    font-family: Arial, sans-serif;
+    color: brown;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
 
-
-
+.flex{
+    display: flex;
+    background-color: slateblue;
+    color: gainsboro;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    gap: 3rem;
+    border: black solid ;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.okvir{
+    background-color: skyblue;
+    color: whitesmoke;
+    -webkit-text-stroke: 1px red;
+    font-family: sans-serif;
+    width: 50%;
+    box-sizing: content-box;
+    font-weight: bold;
+    display: inline-block;
+    font-style: oblique 20deg;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    margin: 35px;
+    border: solid grey 2px;
+    border-radius: 8px;
+    padding: 20px;    
+    
+}
+.okvir .podokvir{
+    display: inline-block;
+    transform: skewX(30deg);
+}
 
 
 
