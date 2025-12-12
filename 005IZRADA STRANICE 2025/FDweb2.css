@@ -66,7 +66,7 @@ hr{color: black; width: 80%; height: 2px;}
     box-sizing: content-box;
     font-weight: bold;
     display: inline-block;
-    font-style: oblique 20deg;
+    font-style: oblique;
     text-transform: uppercase;
     text-align: center;
     display: inline-block;
