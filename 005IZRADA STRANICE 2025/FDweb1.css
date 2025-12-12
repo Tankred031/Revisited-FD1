@@ -67,6 +67,13 @@ ol{
     margin: 2px;
 }
 
+img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
 .linija{
     background-color: tomato; 
     
