@@ -1,5 +1,5 @@
 body{
-    font-family: Courier, monospace;
+    font-family: sans-serif;
     padding-left: 10px;
 }
 
@@ -7,12 +7,17 @@ h1{
     color: blue;
     text-align: center;
     font-family: sans-serif;
+    padding-top: 20px;
 }
 
-h3, ul, ol{
-    font-family: sans-serif;
-}
+.courier{font-family: Courier, monospace;}
 
+p{text-indent: 2em;}
+
+.slovo{
+    font-size: xx-large;
+    font-weight: bold;
+}
 
 ul{
     list-style: none;
@@ -22,4 +27,10 @@ ul li:nth-child(1):before, li:nth-child(4):before, li:nth-child(5):before {conte
 
 ol{
     list-style-type: lower-greek;
+}
+.oblikovanje{
+    text-transform: capitalize;
+    color: hotpink;
+    text-decoration: dashed;
+    font-style: italic;
 }
