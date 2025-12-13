@@ -1,0 +1,51 @@
+body{
+background: #F887FF;
+background: -moz-linear-gradient(45deg, #F887FF 0%, #321450 50%, #DE004E 100%);
+background: -webkit-linear-gradient(45deg, #F887FF 0%, #321450 50%, #DE004E 100%);
+background: linear-gradient(45deg, #F887FF 0%, #321450 50%, #DE004E 100%);
+}
+section{
+    padding: 10px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    margin: 20px;
+    
+}
+
+h1{
+    color: grey;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+hr{background-color: #ff00c8; width: 80%; height: 6px;}
+
+img{
+    display: block;
+    width: 100%;
+    padding: 5px auto;
+
+}
+
+.navigacija{
+    display: flex;
+    background-color: rgb(157, 37, 243);
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px ;
+    border-radius: 8px;
+    gap: 1rem;
+}
+.box{
+    padding: 10px;
+    margin: 0 auto;
+    font-family: serif;
+    font-weight: lighter;
+    
+}
+
+a{text-decoration: none; color: white;} /*ovo skida plavu boju linka i crtu*/
+
+a:hover{color: #00e5ff;}
