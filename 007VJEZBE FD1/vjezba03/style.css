@@ -5,13 +5,13 @@ body {
 
 .container {
     width: 90%;
-    max-width: 900px;
+    max-width: 750px;
     min-width: 300px;
     
-    min-height: 155vh ;
+    min-height: 100vh ;
    
     margin: 0 auto;
-    padding: 30px;
+    padding: 12px;
     background-color: white;
     box-sizing: border-box;
 
@@ -74,6 +74,7 @@ mark {
 .okvir-2 {
     padding: 20px;
     border-left: 4px solid dodgerblue;
+    margin-bottom: 40px;
 }
 
 ol {
@@ -94,4 +95,61 @@ ol {
 
     border-left: 6px solid gold;
     border-radius: 8px;
+    
+}
+
+.razmak {
+    margin-bottom: 40px;
+}
+
+.okvir-3 {
+    padding: 20px;
+    background-color: aliceblue;
+    font-family: monospace;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.plavo {
+    font-weight: bold;
+    font-style: italic;
+    color: cornflowerblue;
+    font-family: sans-serif;
+}
+
+.okvir-4 {
+    padding: 20px;
+    background-color: rgb(250, 204, 211);
+    font-family: serif;
+    border-left: 4px solid crimson;
+    margin-bottom: 40px;
+}
+
+.css {
+    text-decoration-style: dotted;
+    text-decoration-line: overline ;
+    text-decoration-color: #ff6600;
+    text-decoration-thickness: 3px;
+}
+
+footer {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.autor {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.mail {
+    text-decoration:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: dodgerblue;
+}
+
+.end {
+    font-size: smaller;
 }
