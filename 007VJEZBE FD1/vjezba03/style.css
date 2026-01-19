@@ -1,0 +1,73 @@
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    min-width: 300px;
+    
+    min-height: 155vh ;
+   
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+    text-decoration: underline;
+    text-decoration-color: #ff0066;
+    color: lightslategrey;
+    text-transform: uppercase;
+    text-underline-offset: 1rem;
+}
+
+.slovo {
+    font-size: larger;
+}
+
+.ime {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+mark {
+    background-color: bisque;
+}
+
+.okvir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+
+    border-radius: 8px;
+    bottom: 1px solid lightgrey;
+    margin-bottom: 30px;
+}
+
+.okvir img {
+    display: block;
+    width: 90%;
+    padding: 10px 5px;
+    margin: 0 auto;
+}
+
+.kratica {
+    font-weight: bolder;
+    color: #ff6600;
+}
+
