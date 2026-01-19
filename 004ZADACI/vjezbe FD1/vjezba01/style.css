@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: cursive;
+    color: #ff6600;
+}
+
+pre {
+    font-family: monospace;
+}
+
+.broj {
+    color: #ff6600;
+}
+
+.okvir {
+    background-color: white;
+    border-radius: 12px;
+    margin-right: 120px;
+    padding: 20px;
+    width: 25%;
+}
+
+u {
+    text-decoration-color: #ff6600;
+
+}
+
+.veliko {
+    font-size: xx-large;
+    color: black;
+}
+
+.prozor {
+    background-color: aliceblue;
+    font-family: serif;
+    padding: 2px 6px 4px;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "✅";
+}
+
+li {
+    line-height: 2.5rem;
+}
+
+.broj, F {
+    font-weight: bold;
+}
