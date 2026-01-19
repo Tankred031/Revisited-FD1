@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+
+.okvir {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 20%;
+    overflow: hidden;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+ul li::before {
+    content: "✔️";
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.cijena {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.prozor {
+    background-color: dodgerblue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 20%;
+    
+    position: absolute;
+    text-align: center;
+}
