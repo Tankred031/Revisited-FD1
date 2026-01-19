@@ -71,3 +71,27 @@ mark {
     color: #ff6600;
 }
 
+.okvir-2 {
+    padding: 20px;
+    border-left: 4px solid dodgerblue;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+.kratice {
+    font-weight: bolder;
+    color: #ff6600;
+    line-height: 1.8rem;
+
+}
+
+.html {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+
+    border-left: 6px solid gold;
+    border-radius: 8px;
+}
