@@ -26,7 +26,7 @@
 
             <hr>
 
-            <h2>1. Fleksibilni model kutija (Flexbox)</h2>
+            <h2 id="flexbox">1. Fleksibilni model kutija (Flexbox)</h2>
 
             <p><b>Flexbox</b> je jednodimenzionalni model rasporeda dizajniran za distribuciju prostora između stavki u spremniku i moćnu mogućnost poravnavanja. Idealan je za navigaciju, male komponenete i centriranje elemenata.</p>
 
@@ -43,7 +43,7 @@
 
             <hr>
 
-            <h2>2. Dvodimenzionalni model mreže (CSS Grid)</h2>
+            <h2 id="grid">2. Dvodimenzionalni model mreže (CSS Grid)</h2>
 
             <p><b>CSS Grid</b> je dvodimenzionalni model rasporeda (redovi i stupci). Savršen je za dizajniranje cjelokupnog raposreda stranice (main layout) gjde želite precizno pozicioniranje elemenata.</p>
 
@@ -61,27 +61,28 @@
 
             <hr>
 
-            <h2>3. Klasični rasporedi (Float & Columns)</h2>
+            <h2 id="float">3. Klasični rasporedi (Float & Columns)</h2>
 
             <p>Prije Flexboxa i Grida, koristio se <b>Float</b> za bočno pozicioniranje elemenata. **Multi-column** omogućuje pakiranje sadržaja u stupce.</p>
 
-                <div class="flex">
-                    <p class="card 1">Stavka 1</p>
-                    <p class="card 2">Stavka 2</p>
-                    <p class="card 3">Stavka 3</p>
-                </div>
+                <p class="float">Float lijevo</p>
+
+                <div class="stupci">
+                    Ovaj tekst okružuje float element s lijeve strane. Klasično pozicioniranje pomoću float-a pomiče elemente ulijevo ili udesno dok dopušta da se okolni tekst omota oko njega. Također, ovaj odlomak je podijeljen u tri stupca pomoću svojstva **columns**, što je korisno za novinske ili tiskane rasporede.
+                </div>    
 
         </section>
     
-        <section class="okvir">
+        <div class="polje">
 
-            Dodatne informacije
+            <p><b>Dodatne informacije</b></p>
 
-            Sva tri modela su i dalje relevantna. Flexbox za komponente. Grid za cjelokupni raspored stranice, a Columns za tekstualne blokove.
+            <p>Sva tri modela su i dalje relevantna. Flexbox za komponente. Grid za cjelokupni raspored stranice, a Columns za tekstualne blokove.</p>
 
-        
         </div>
-        
+       
+
         <footer>Primjer kreiran za demonstraciju CSS Layout svojstava.</footer>
+    </div>
 </body>
 </html>
