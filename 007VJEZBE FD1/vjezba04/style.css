@@ -1,0 +1,32 @@
+body {
+    background-color: aliceblue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr ;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: 
+    "a a a"
+    "b c d"
+    "e e e";
+    gap: 2rem;
+}
+
+.p1 {grid-area: a; background-color: red;}
+.p2 {grid-area: b; background-color: dodgerblue;}
+.p3 {
+    /* grid-area: p3; */
+    background-color: white;
+    display: grid;
+    grid-template-areas: 
+    "f f"
+    "g h";
+    gap: 1rem;
+}
+.p4 {grid-area: d; background-color: darkviolet;}
+.p5 {grid-area: e; background-color: limegreen;}
+
+.s1 {grid-area: f; background-color: gold;}
+.s2 {grid-area: g; background-color: seagreen;}
+.s3 {grid-area: h; background-color: orange;}
