@@ -1,0 +1,47 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr ;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: 
+    "p1 p1 p1"
+    "p2 p3 p4"
+    "p5 p5 p5";
+    gap: 1rem;
+    padding-top: 10px;
+
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 5px black;
+    box-sizing: border-box
+}
+
+.p1 {grid-area: p1; background-color: red; display: flex; justify-content: center; align-items: center;}
+.p2 {grid-area: p2; background-color: dodgerblue; display: flex; justify-content: center; align-items: center;}
+.p4 {grid-area: p4; background-color: darkviolet; display: flex; justify-content: center; align-items: center;}
+.p5 {grid-area: p5; background-color: limegreen; display: flex; justify-content: center; align-items: center;}
+
+.p3 {
+    display: grid;
+    grid-template-areas: 
+    "s1 s1"
+    "s2 s3";
+    gap: 2rem;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    
+}
+
+
+.s1 {grid-area: s1; background-color: gold; display: flex; justify-content: center; align-items: center;}
+.s2 {grid-area: s2; background-color: seagreen; display: flex; justify-content: center; align-items: center;}
+.s3 {grid-area: s3; background-color: orange; display: flex; justify-content: center; align-items: center;}
+
+
+.p1, .p2, .p3, .p4, .p5, .s1, .s2, .s3 {
+    border: 1px solid black;
+    
+}
+
+
