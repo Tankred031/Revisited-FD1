@@ -37,7 +37,7 @@
     box-sizing: border-box;
     
     /* align-content: start;       spasioc! jer je default :stretch, i onda rasteže da popuni prostor */
-    align-content: center;
+    align-content: center;         /*ipak*/
 }
 
 
