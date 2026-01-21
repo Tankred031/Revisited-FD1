@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domaća Zadaća</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="img/lock.jpg" alt="Lock">
+    <div class="container">
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Sigurna Prijava</legend>
+
+          <label class="label" for="ime">Korisničko ime</label>
+          <input type="text" id="ime" placeholder="admin"/>
+          <label class="label" for="lozinka">Lozinka</label>
+          <input type="password" id="lozinka" placeholder="•••••"/>
+          <div class="checkbox">
+            <input type="checkbox" name="zapamti" id="zapamti" />
+            <label for="zapamti">Zapamti uređaj</label>
+          </div>
+          <button>Prijavi se</button>
+        </fieldset>
+      </form>
+    </div>
+    <table>
+      <caption>
+        Nedavne aktivnosti prijave
+      </caption>
+      <colgroup>
+        <col style="width: 35%" />
+        <col style="width: 35%" />
+        <col style="width: 35%" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>IP adresa</th>
+          <th>Vrijeme</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>192.168.1.15</td>
+          <td>12:45</td>
+          <td style="color: green">Uspjeh</td>
+        </tr>
+        <tr>
+          <td>10.0.0.52</td>
+          <td>Jučer</td>
+          <td style="color: red">Greška</td>
+        </tr>
+        <tr>
+          <td>88.102.x.x</td>
+          <td>01.12.</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Prikaz zadnja 3 pokušaja</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

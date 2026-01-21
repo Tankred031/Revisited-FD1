@@ -3,90 +3,90 @@ body {
     font-family: sans-serif;
 }
 
-.container{
-    
-    width: 90%;
-    max-width: 500px;
-    min-width: 200px;
-    inline-size: 90%;
-    max-inline-size: 500px;
-
-    min-height: 50vh;
-    min-block-size: 50vh;
-
-    margin: 0 auto;
-    background-color: #F0F1F0;
-        
-    outline-style: none;
-    outline-width: 2px;
-    outline-offset: 10px;
-
-    box-sizing: content-box;
-    border-radius: 5px;
-}
 
 .okvir {
     background-color: white;
-    padding: 20px;
+    width: 20%;   /*ovo je širina pozadine*/
     
-    width: 90%;
-    max-width: 400px;
-
-    margin: 10px;
-    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
 }
 
 form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 30px 10px;
+    
 }
 
-label, input {
-    padding: 10px;
-    
+.omotac {
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    margin-bottom: 6px;
     
 }
 
 label {
     margin-bottom: 20px;
     line-height: 30px;
+    
+    font-size: 15px;
 }
 
 input {
     border-radius: 6px;
     border: 1px solid lightgray;
-    width: 95%;
+    width: 91%;
+    padding: 10px;
 }
 
-.omotac {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .gumb {
     color: white;
-    background-color: dodgerblue;
+    background-color: royalblue;
     width: 100%;
-    padding: 20px;
+    padding: 10px 20px;
 
     border-radius: 6px;
     border: none;
 
     font-weight: bold;
-    font-size: large;
+    font-size: small;
+    
+    margin-bottom: 10px;
 }
 
-.tablica {
-   width: 100%;
+
+                          /*jedini način da se centrira ulijevo - resetirati label/input */
+.kvaka input {
+    all: unset;
+    appearance: checkbox;
+    -webkit-appearance: checkbox;
+    justify-items: left;
+    display: inline-block;
+}
+
+.kvaka label {
+    white-space: nowrap;    /* sprječava lom teksta */
+   
+}
+    
+caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+table {
+    margin: 0 auto;
+    width: 600px;
 }
 
 table, th, td {
     border-collapse: collapse;
-    border-left: none;
-    border-right: none;
-    border-top: none;
     border-bottom: 1px solid lightgrey;
 
     text-align: left;
@@ -97,11 +97,8 @@ table, th, td {
 th {
     text-transform: uppercase;
     font-weight: bold;
-    background-color: lightgray;
+    background-color: aliceblue;
 }
-
-
-    
 
 
 td {
@@ -120,4 +117,5 @@ td {
 .footer {
     text-align: center;
     font-weight: 400;
+    font-size: small;
 }
