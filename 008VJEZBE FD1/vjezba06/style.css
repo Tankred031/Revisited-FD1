@@ -1,3 +1,123 @@
 body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.container{
     
+    width: 90%;
+    max-width: 500px;
+    min-width: 200px;
+    inline-size: 90%;
+    max-inline-size: 500px;
+
+    min-height: 50vh;
+    min-block-size: 50vh;
+
+    margin: 0 auto;
+    background-color: #F0F1F0;
+        
+    outline-style: none;
+    outline-width: 2px;
+    outline-offset: 10px;
+
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+
+.okvir {
+    background-color: white;
+    padding: 20px;
+    
+    width: 90%;
+    max-width: 400px;
+
+    margin: 10px;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label, input {
+    padding: 10px;
+    
+    
+}
+
+label {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+input {
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    width: 95%;
+}
+
+.omotac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gumb {
+    color: white;
+    background-color: dodgerblue;
+    width: 100%;
+    padding: 20px;
+
+    border-radius: 6px;
+    border: none;
+
+    font-weight: bold;
+    font-size: large;
+}
+
+.tablica {
+   width: 100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+
+    text-align: left;
+    padding: 10px;
+}
+
+
+th {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+
+    
+
+
+td {
+    font-weight: 600;
+    background-color: white;
+}
+
+.zeleno {
+    color: green;
+}
+
+.crveno {
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    font-weight: 400;
 }

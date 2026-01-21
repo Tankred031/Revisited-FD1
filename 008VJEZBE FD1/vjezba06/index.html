@@ -7,6 +7,78 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
+    <img src="" alt="">
 
+    <div class="okvir">
+        <form action="/posalji" method="post">
+            <fieldset>
+                <legend><b>Sigurna Prijava</b></legend>
+
+            <div class="omotac">
+                <label for="ime">Korisničko ime</label>
+                <input type="text" name="korisnicko_ime" id="ime" placeholder="admin">
+            </div>
+                
+            <div class="omotac">
+                <label for="lozinka">Lozinka</label>
+                <input type="password" id="lozinka" placeholder="******">
+            </div>
+                
+            <div class="omotac">
+                <input type="checkbox" name="zapamti_uredaj" id="uredaj">
+                <label for="uredaj">Zapamti uređaj</label>
+            </div>
+
+                
+            
+                <button class="gumb">Prijavi se</button>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <pre>
+
+    </pre>
+
+    <div class="tablica">
+        <caption>Nedavne aktivnosti prijave</caption>
+        <table>
+            <colgroup>
+                    <col style="width: 33%;">
+                    <col style="width: 33%;">
+                    <col style="width: 33%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>ip adresa</th>
+                    <th>vrijeme</th>
+                    <th>status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>192.168.1.15</td>
+                    <td>12:45</td>
+                    <td class="zeleno">Uspjeh</td>
+                </tr>
+                <tr>
+                    <td>10.0.0.52</td>
+                    <td>Jučer</td>
+                    <td class="crveno">Greška</td>
+                </tr>
+                <tr>
+                    <td>88.102.x.x</td>
+                    <td>01.12.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="footer" colspan="3">Prikaz zadnja 3 pokušaja</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 </body>
 </html>
