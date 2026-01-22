@@ -11,7 +11,7 @@ body {
     min-height: 100vh ;
    
     margin: 0 auto;
-    padding: 24px;
+    /* padding: 24px; */
 
     background-color: white;
     box-sizing: border-box;
@@ -82,7 +82,7 @@ button {
     max-width: 1000px;
     margin: 0 auto;
  
-    padding: 20px;
+    padding: 20px 40px;
     text-align: center;
     color: black;
 }
@@ -117,4 +117,10 @@ button {
 .columns {
     columns: 2;
     column-rule: 1px solid silver;
+    padding: 20px ;
+    text-align: justify;
+}
+
+table {
+    
 }
