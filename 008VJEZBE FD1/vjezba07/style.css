@@ -1,4 +1,120 @@
 body {
-    background-color: lightslategrey;
     font-family: sans-serif;
+     background-color: #2c3e50;
+}
+
+/*MORA IMATI KONTEJNER JER FLEX-KARTICE POSTANU PLOČE*/
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh ;
+   
+    margin: 0 auto;
+    padding: 24px;
+
+    background-color: white;
+    box-sizing: border-box;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: dimgray;
+}
+
+.logo {
+    color: orange;
+    font-weight: bold;
+    padding: 10px 0 0 25px;
+    padding-left: 25px;
+}
+
+.linkovi {
+    display: flex;
+    justify-items: right;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+    gap: 1rem;
+    padding-right: 25px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.naslov {
+    background-color: black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1 {
+    color: white;
+}
+
+h5 {
+    color: silver;
+}
+
+button {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+
+.usluge {
+    max-width: 1000px;
+    margin: 0 auto;
+ 
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.subtitle {
+    color: black;
+    font-size: smaller;
+}
+
+.kartice {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+
+.kartica {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+    border-left: 2px solid orange;
+    background-color: lavenderblush;
+    border-radius: 8px;
+
+    padding: 10px 20px;
+    flex: 1;
+}
+
+.columns {
+    columns: 2;
+    column-rule: 1px solid silver;
 }
