@@ -1,0 +1,106 @@
+:root {
+    --bg-color: #0b1023;
+
+    --flex-color: #6fe3ff;
+    --flex-color-t: rgba(111, 227, 255, 0.15);
+
+    --grid-color: #ff8bd4;
+    --grid-color-t: rgba(255, 139, 212, 0.15);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: var(--bg-color);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* ================= FLEX ================= */
+
+.flex-container {
+    margin: 50px auto;
+    width: min(1100px, 95%);
+    display: flex;
+    gap: 1em;
+}
+
+.flex-container .card {
+    flex: 1;
+    padding: 2em;
+    border-radius: .5em;
+    background: var(--flex-color-t);
+    color: var(--flex-color);
+    border: 5px solid var(--flex-color);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.flex-container .card p {
+    flex-grow: 1;
+}
+
+.flex-container button {
+    padding: 1em;
+    font: inherit;
+    border-radius: .4em;
+    border: none;
+    background: var(--flex-color);
+    color: var(--bg-color);
+}
+
+/* ================= GRID ================= */
+
+.grid-container {
+    margin: 50px auto;
+    width: min(1100px, 95%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.grid-container .card {
+    padding: 2em;
+    border-radius: .5em;
+    background: var(--grid-color-t);
+    color: var(--grid-color);
+    border: 5px solid var(--grid-color);
+    text-align: center;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 1em;
+}
+
+.grid-container button {
+    padding: 1em;
+    font: inherit;
+    border-radius: .4em;
+    border: none;
+    background: var(--grid-color);
+    color: var(--bg-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
