@@ -65,7 +65,13 @@ input {
 }
 
 
-                          /*jedini način da se centrira ulijevo - resetirati label/input */
+     /*jedini način da se centrira ulijevo - resetirati label/input */
+
+
+.kvaka {
+    text-align: left;
+}
+
 .kvaka input {
     all: unset;
     appearance: checkbox;
@@ -75,10 +81,12 @@ input {
 }
 
 .kvaka label {
-    white-space: nowrap;    /* sprječava lom teksta */
+    white-space: nowrap;    
    
-}
-    
+}  
+
+
+
 caption {
     text-align: left;
     font-weight: bold;

@@ -1,0 +1,37 @@
+body {
+   font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "a b c";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.a {
+    grid-area: a;
+    border-top: 1px solid black;
+    padding: 3px;
+}
+.b {grid-area: b;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.c {
+    grid-area: c;
+    border-top: 1px solid black;
+    text-align: justify;
+    padding: 10px;
+}
+
+form {
+    font-family: sans-serif;
+    padding-top: 6px;
+}

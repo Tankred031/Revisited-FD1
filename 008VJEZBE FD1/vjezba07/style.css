@@ -58,7 +58,7 @@ a {
 .naslov {
     background-color: black;
     text-align: center;
-    padding: 100px 0;
+    padding: 85px 0;
 }
 
 h1 {
@@ -107,7 +107,7 @@ button {
     text-align: left;
 
     border-left: 2px solid orange;
-    background-color: lavenderblush;
+    background-color: whitesmoke;
     border-radius: 8px;
 
     padding: 10px 20px;
@@ -119,8 +119,177 @@ button {
     column-rule: 1px solid silver;
     padding: 20px ;
     text-align: justify;
+    margin: 0 20px;
 }
 
 table {
+    margin: 0 auto;
+    text-align: left;
+    width: 90%;
+}
+
+caption {
+    text-align: left;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    font-size: small;
+        
+}
+
+tr:nth-child(2) > td, tr:nth-child(4) > td {
+    background-color: whitesmoke;
+
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+table td:not(:first-child):not(:last-child) {
+  border-left: none;
+  border-right: none;
+}
+
+table td:first-child {
+  border-left: 2px solid whitesmoke;
+}
+
+
+table td:last-child {
+  border-right: 2px solid whitesmoke;
+}
+
+
+
+.okvir {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: whitesmoke;
+}
+
+
+form {width: 55%;}
+
+legend {
+    color: orange;
+    font-weight: bolder;
+    border: 1px solid whitesmoke;
+}
+
+fieldset {
+    border-radius: 8px;
+    background-color: white;
     
+}
+            /* PORAVNANJE CHECKBOX I TEKSTA */
+.kvaka input {
+    all: unset;
+    appearance: checkbox;
+    -webkit-appearance: checkbox;
+    justify-items: left;
+    display: inline-block;
+}
+
+.kvaka {
+    text-align: left;
+    justify-items: center;
+}
+
+
+
+button{
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 40px;
+    
+}
+
+.btn-lower {
+    width: 100%;
+}
+
+form label{
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    
+}
+
+form input{
+    text-align: left;
+}
+
+.range {
+    all: unset;
+    font-weight: bold;
+}
+
+input[type="range"] {
+    touch-action: pan-y;
+    width: 100%;
+    accent-color: crimson;
+}
+
+
+
+
+.termin {
+    font-size: small;
+}
+
+.text, .mymenu {width: 300px;
+
+}
+
+
+.footer {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: smaller;
+    background-color: #2c3e50;
+    padding: 10px;
+}
+
+.footer a {
+    color: orange;
+}
+
+
+.linija{
+    border: none;
+    height: 1px;
+    background-color: #C0C0C0;
+    
+    
+}
+.copywrite{
+    color: grey;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: xx-small;
+}
+
+.velki-okvir {
+    resize: vertical;
+    min-height: 60px;
+    min-width: 100%;
 }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadaća 18</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input[type="submit"]{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Povratak na nastavu</h1>
+   
+    <div class="grid-container">
+        <div class="a"><form action="stranica.html" method="get">
+
+                <fieldset>
+                    <legend>Podaci</legend>
+                    <label for="datum">Datum</label>
+                    <input type="datetime-local" name="datum" id="datum">
+                    <hr>
+                    Status polaznika<br>
+                    <input type="radio" name="redovito" id="redovito" value="true">
+                    <label for="redovito">Redoviti</label><br>
+
+                    <input type="radio" name="redovito" id="neredovito" value="false">
+                    <label for="neredovito">Ne redoviti</label>
+                    <hr>
+                    
+                    Domaće zadaće<br>
+                    <input type="checkbox" name="dz[]" id="d1" value="1">
+                    <label for="d1">1 - 3</label><br>
+
+                    <input type="checkbox" name="dz[]" id="d2" value="2">
+                    <label for="d2">4 - 9</label>
+                    <hr>
+
+                    <label for="ocjena">Ocjena</label>
+                    <select name="ocjena" id="ocjena">
+                        <option value="1">Nedovoljan (1)</option>
+                        <option value="2">Dovoljan (2)</option>
+                        <option value="3">Dobar (3)</option>
+                        <option value="4">Vrlo dobar (4)</option>
+                        <option selected="selected" value="5">Izvrstan (5)</option>
+                    
+                    </select>
+                    <hr> 
+                
+                    <input type="submit" value="Potvrdi">
+                
+                </fieldset>
+
+            </form>
+        </div>
+
+        <div class="b"></div>
+        
+        <div class="c">
+
+            <p><span style="font-size: 2rem;">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus elit et porttitor consequat. Vestibulum in vehicula massa. Integer cursus ligula sed nunc varius gravida. Vestibulum et posuere ipsum, quis commodo lorem. Duis congue enim a diam aliquam euismod. Nulla sit amet pulvinar quam. Sed facilisis gravida pharetra. Proin dui nunc, cursus eget mi non, sodales luctus lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris facilisis placerat tincidunt. Suspendisse placerat vestibulum malesuada.
+
+            Ut pharetra ornare mauris, at tempor odio tempus in. Aenean egestas pulvinar nunc. Ut dictum purus non diam convallis varius. Aenean non libero tristique, finibus nisi sollicitudin, interdum magna. Aenean venenatis, ipsum non dictum dapibus, nunc nulla lobortis eros, et varius enim diam vel velit. Vivamus non nulla et urna efficitur aliquet sed ut dolor. Donec condimentum, neque in lacinia ornare, nulla lorem volutpat neque, sed egestas nisi felis ac sapien. Maecenas non commodo lectus. Ut vehicula massa id lacus viverra mattis.
+            </p>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
