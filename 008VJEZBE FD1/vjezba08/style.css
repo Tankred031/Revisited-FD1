@@ -60,5 +60,104 @@ a {
 
 .okvir {
     background-color: white;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: serif;
+    padding: 10px;
+    border-left: 6px solid brown ;
+    font-weight: bold;
+}
+
+.omotac {
+    display: flex;
+    /* flex-direction: column; */
+    
+    gap: 1rem;
+}
+
+.stupac.a {
+    columns: 1;
+    line-height: 1.6;
+    width: 120px;
+    font-family: serif;
+}
+
+.stupac.b {
+    flex: 1;
+}
+
+.stupac.b iframe {
+    width: 90%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    display: block;
+}
+
+.citat {
+    padding: 10px;
+    border-left: 5px solid silver;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    font-family: serif;
+    padding: 15px;
+    font-size: large;
+    border: 1px solid silver;
+}
+
+th {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    
+}
+
+tr:nth-child(2) > td {
+    background-color: lightgray;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    font-family: serif;
+    padding-bottom: 10px;
+}
+
+label, input, textarea {
+    line-height: 2;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+button {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    padding: 20px 0;
 }
