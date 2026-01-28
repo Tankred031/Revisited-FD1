@@ -1,0 +1,64 @@
+body {
+    background-color: darkblue;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh ;
+   
+    margin: 0 auto;
+    
+    background-color: antiquewhite;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-family: serif;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+h4 {
+    color: grey;
+    text-align: center;
+    font-style: italic;
+}
+
+.linija {
+    width: 90%;
+    border: 2px solid brown;
+    margin-bottom: 20px;
+}
+
+.linkovi {
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+    background-color: brown;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: linen;
+    font-family: serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.okvir {
+    background-color: white;
+    padding: 20px;
+}
