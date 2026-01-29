@@ -137,7 +137,7 @@ label {
 }
 
 label, input, textarea {
-    line-height: 2;
+    line-height: 2rem;
 }
 
 textarea {

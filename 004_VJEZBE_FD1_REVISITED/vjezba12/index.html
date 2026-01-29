@@ -11,28 +11,35 @@
     <div class="container">
         <h1>Novi Korisnik</h1>
 
-        <div class="okvir-1">
-        <form action="">
-            <fieldset>
+        <div class="okvir">
+        <form action="#" method="get">
+            
 
-                <label for="">Ime i Prezime</label>
-                <input type="text" placeholder="npr. Ana Anić">
+                <div class="unos">
+                    <label for="text">Ime i Prezime</label>
+                    <input type="text" placeholder="npr. Ana Anić">
+                </div>
 
-                <label for="">Email adresa</label>
-                <input type="email" placeholder="npr. ana@gmail.com">
+                <div class="unos">
+                    <label for="email">Email adresa</label>
+                    <input type="email" placeholder="npr. ana@gmail.com">
+                </div>
 
-                <label for="">Uloga:</label>
-                <select name="" id="">
-                    <option value="1">Administrator</option>
-                    <option value="2">Urednik</option>
-                    <option value="3">Obični Korisnik</option>
-                </select>
+                <div class="unos">
+                    <label for="option">Uloga:</label>
+                    <select name="" id="">
+                        <option value="1">Administrator</option>
+                        <option value="2">Urednik</option>
+                        <option value="3">Obični Korisnik</option>
+                    </select>
+                </div>
 
-            </fieldset>
+                <input type="submit"value="Spremi Korisnika" >
+                
 
         </form>
 
-                <button>Spremi Korisnika</button>
+                
 
         </div>
 
@@ -42,6 +49,13 @@
         <h1>Lista Korisnika</h1>
 
         <table>
+            <colgroup>
+                <col style="width:5%">
+                <col style="width:30%">
+                <col style="width:25%">
+                <col style="width:20%">
+                <col style="width:20%">
+            </colgroup>
             <thead>
                 <tr>
                     <th>ID</th>
