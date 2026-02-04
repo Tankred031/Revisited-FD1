@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    background-color: darkblue;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh ;
+   
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr ;
+    grid-template-areas:
+    "a a"
+    "b c"
+    "d c"
+    "e e";
+    gap: 2rem;
+}
+
+.a {grid-template-areas: a;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(59, 59, 121);
+
+    border-radius: 16px;
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+.b {grid-template-areas: b;
+    background-color: rgb(59, 59, 121);
+    border-radius: 16px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.c {grid-template-areas: c;
+    background-color: rgb(59, 59, 121);
+    border-radius: 16px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.d {grid-template-areas: d;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 59, 121);
+    border-radius: 16px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.e {grid-template-areas: e;
+    background-color: rgb(59, 59, 121);
+    border-radius: 16px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.lista li:nth-child(1)::before {
+    content: "📍";
+}
+
+.lista li:nth-child(2)::before {
+    content: "🏁";
+}
+
+.lista li:nth-child(3)::before {
+    content: "🏃";
+}
+
+
+
+.stars {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-size: 2rem;
+    display: block;
+    padding-right: 40px;
+}
+
+.stars input {
+    display: none;
+}
+
+.stars label {
+    color: #ccc;
+    cursor: pointer;
+}
+
+/* checked star + all before it */
+.stars input:checked ~ label {
+    color: rgb(34, 226, 130);
+}
+
+/* hover effect */
+.stars label:hover,
+.stars label:hover ~ label {
+    color: rgb(34, 226, 130);
+}
