@@ -1,0 +1,52 @@
+.hero {
+    min-height: 100vh;
+    background-image: url("pozadina.png.");
+    background-repeat: repeat;
+    background-size: cover;
+    animation: moveBg 30s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes moveBg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -1000px;
+    }
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 25px;
+    padding: 50px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    width: 180px;
+    height: 180px;
+    background: rgba(255,255,255,0.85);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
