@@ -1,0 +1,343 @@
+body{
+    background-color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh ;
+   
+    margin: 0 auto;
+    
+    background-color: black;
+    box-sizing: border-box;
+
+}
+
+.bgimage{
+    background-image: url('pumping.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    display: flex;                  /*ovo četvoro stavlja tekst preko slike*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(             /*podiže desni kut malo gore*/
+        0 0,
+        100% 0,
+        100% 95%,
+        0 100%);
+}
+
+.traka{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .podatak{
+    box-sizing: content-box;
+    word-spacing: unset;
+    } */
+
+.lijevo{
+    color: rgba(159, 231, 24, 0.856);
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 40px;
+    }
+
+.desno {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    gap: 35px;
+    padding-right: 40px;
+}
+
+.desno a{
+    text-decoration: none;
+    color: white;
+    font-size: x-small;
+    text-transform: capitalize;
+    gap: 40px;
+    
+}
+
+.desno a:hover {
+    color: rgba(159, 231, 24, 0.856);
+}
+
+h1{
+    color: white;
+    font-size: xxx-large;
+    text-align: center;
+    padding: 40px 0;
+
+}
+h5{
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    
+}
+
+.button{
+    background-color:rgba(159, 231, 24, 0.856);
+    display: block;
+    border-radius: 28px;
+    padding: 20px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: black;
+
+}
+
+h2{
+    color: rgba(159, 231, 24, 0.856);
+    text-align: center;
+    font-size: x-large;
+    margin: 20px 0 10px;
+}
+
+.kratka{
+    background-color: whitesmoke;
+    align-items: center;
+    width: 5%;
+    height: 2px;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.box{
+    width: 200px;
+    box-sizing: content-box;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    padding: 10px 20px;
+    margin-left: 10px;
+    gap: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+h4{
+    color: white;
+    font-size: larger;
+}
+
+p{
+    font-size: small;
+    color: white;
+    
+}
+
+caption{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    caption-side: top;
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    color: white;
+    background-color: rgb(64, 65, 65);
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color:rgba(159, 231, 24, 0.856);
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+tbody tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+td {
+    border-top: 1px solid gray;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
+td, th{
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+tbody tr:nth-child(3) td:first-child{
+    font-weight: bold;
+}
+
+td > .tekst{
+    font-weight: bold;
+}
+
+.video{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+iframe{
+    width: 90%;
+    align-items: center;
+    height: 50vh;
+    padding-left: 45px;
+    margin-top: 0;
+
+}
+
+iframe[src=""] {
+    display: none;
+}
+
+
+.duga{
+    background-color: rgba(159, 231, 24, 0.856);
+    height: 1px;
+    width: 95%;
+}
+
+.end{
+    text-align: center;
+    color: silver;
+    font-size: x-small;
+}
+
+.section{
+    min-height: auto;
+    padding: 20px 0;
+}
+
+.grey{
+    background-color: rgb(77, 77, 77);
+}
+
+.black{
+    background-color: black;
+
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0 40px;
+}
+
+.boks-1{
+    flex: 1;
+    padding-left: 30px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.boks-2 {
+    flex: 1;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.naziv {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+.boks-1 > p{
+    font-style: italic;
+    font-size: x-small;
+    /* font-size: 13px; */
+    margin-bottom: 8px;
+}
+
+.radno {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.email {
+    color: rgba(159, 231, 24, 0.856);
+    text-decoration: none;
+}
+
+
+form {
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+input, select, textarea {
+        padding: 8px;
+        font-size: 13px;
+        border-radius: 4px;
+        border: none;
+        margin-bottom: 10px;
+}
+
+textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(159, 231, 24, 0.856);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
