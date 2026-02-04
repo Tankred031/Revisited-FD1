@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh ;
+   
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: left;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    margin: 10px 0;
+}
+
+h5 {
+    font-family: monospace;
+    color: dodgerblue;
+    letter-spacing: 3px;
+}
+
+.black {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 65px ;
+}
+
+.blue {
+    color: dodgerblue;
+    font-family: serif;
+    font-size: 65px;
+}
+
+p {
+    color: slategray;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    background-color: white;
+    text-align: left;
+
+    width: 55%;
+    border-radius: 16px;
+    gap: 2rem;
+}
+
+cite {
+    display: block;
+    box-sizing: content-box;
+    border-left: 2px solid blue;
+    font-family: serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.lesser {
+    color: black;
+    font-size: small;
+    line-height: 1.3rem;
+}
+
+
+h3 {
+    color: dodgerblue;
+
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 35%;
+        
+    border-radius: 16px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+h4 {
+    padding-left: 20px;
+}
+
+h4::before {
+    content: '💡';
+}
+
+.card {
+    background-color: white;
+    gap: 1rem;
+    margin: 10px;
+    border-radius: 8px;
+
+    padding: 10px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    text-align: center;
+
+    font-size: smaller;
+    margin-top: 10px;
+}
