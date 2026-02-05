@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: darkblue;
+    background-color: lightgray;
     color: white;
 }
 
@@ -17,57 +17,124 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr ;
-    grid-template-areas:
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr auto ;
+    grid-template-areas: 
     "a a"
     "b c"
-    "d c"
+    "d d"
     "e e";
     gap: 2rem;
+    padding: 15px;
+    border-radius: 8px;
 }
 
-.a {grid-template-areas: a;
+.a {grid-area: a; 
+    padding: 10px;
+    margin-top: 40px;
+    
+}
+
+.b {grid-area: b;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.c {grid-area: c;
+    padding: 30px;
+}
+
+.d {grid-area: d;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.d p {
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-bottom: 2px;
+}
+
+.zeleno {
+    color: rgb(34, 226, 130);
+    
+}
+
+
+input {
+    background-color:rgb(59, 59, 121);
+    padding: 10px;
+}
+
+.e {grid-area: e;
+    padding: 10px;
+    display: grid;
+    
+}
+
+.dva {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.lijevo, .desno {
     display: flex;
     flex-direction: column;
+    gap: 6px;
+}
+
+
+
+.desno label {
+    display: block;
+    margin-bottom: 2px;    
+}
+
+.desno input[type="datetime-local"] {
+    width: 100%;
+}
+
+.dva input {
+    width: 90%;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(59, 59, 121);
+    border: 1px solid slategray;
+    border-radius: 8px;
+}
+
+.lijevo label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+
+.a, .b, .c, .d, .e{
+    border-radius: 8px;
+    background-color: rgb(59, 59, 121);
+    padding: 10px;
+}
+
+h1, h4 {
     text-align: center;
-    background-color: rgb(59, 59, 121);
-
-    border-radius: 16px;
-    margin-bottom: 10px;
-    padding: 20px;
-
-}
-.b {grid-template-areas: b;
-    background-color: rgb(59, 59, 121);
-    border-radius: 16px;
-    margin-bottom: 10px;
-    padding: 20px;
-}
-.c {grid-template-areas: c;
-    background-color: rgb(59, 59, 121);
-    border-radius: 16px;
-    margin-bottom: 10px;
-    padding: 20px;
-}
-.d {grid-template-areas: d;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(59, 59, 121);
-    border-radius: 16px;
-    margin-bottom: 10px;
-    padding: 20px;
-}
-.e {grid-template-areas: e;
-    background-color: rgb(59, 59, 121);
-    border-radius: 16px;
-    margin-bottom: 10px;
-    padding: 20px;
 }
 
+h5 {
+    font-size: large;
+    padding-left: 20px;
+}
 
-ul {
-    list-style-type: none;
+.lista li::before {
+    display: inline-block;
+    margin-right: 8px;
+
+}
+
+.lista li {
+    list-style: none;
+    line-height: 2;
 }
 
 .lista li:nth-child(1)::before {
@@ -80,6 +147,16 @@ ul {
 
 .lista li:nth-child(3)::before {
     content: "🏃";
+}
+
+.lista {
+    padding: 20px;
+}
+
+.lista span {
+    display: block;
+    font-weight: bold;
+    padding-top: 30px;
 }
 
 
@@ -110,4 +187,22 @@ ul {
 .stars label:hover,
 .stars label:hover ~ label {
     color: rgb(34, 226, 130);
+}
+
+.veza {
+    text-decoration: none;
+    color: greenyellow;
+    margin-left: 17px;
+}
+
+
+.btn {
+   align-self: center;
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+    color: black ;
+    font-weight: bolder;
+    background-color: rgb(34, 226, 130);
+    border-radius: 11px;
 }

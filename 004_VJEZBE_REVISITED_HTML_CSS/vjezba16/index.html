@@ -8,15 +8,17 @@
 </head>
 <body>
     <div class="container">
-        <div class="grid"></div>
+        <div class="grid">
             <div class="a">
-                <h5>Osijek, Hrvatska</h5>
-                <h2>OSIJEK RUN 2026</h2>
-                <h5>Osjeti ritam grada na Dravi</h5>
+                <h4>Osijek, Hrvatska</h4>
+                <h1>OSIJEK RUN 2026</h1>
+                <h4>Osjeti ritam grada na Dravi</h4>
             </div>
 
             <div class="b">
-                <ul>Informacije
+
+                <p class="lista"><b>Informacije</b></p>
+                <ul class="lista">
                     <li>Start: Tvrđa (Trg Sv. Trojstva)</li>
                     <li>Cilj: Pješački most</li>
                     <li>Tip: Noćna utrka/Polumaraton</li>
@@ -41,20 +43,38 @@
                 </div>
 
             <div class="d">
-                    Podaci za prijavu
+                <form action="https://origo.hr" method="post">   
+                
+                <p><b>Podaci za prijavu</b></p>
+                <br>
+
+                <div class="dva">
+                    <div class="lijevo">
+                        <label class="zeleno" for="text">IME I PREZIME</label>
+
+                        <input type="text" name="ime" id="ime" placeholder="npr. Ivan Horvat">
+                    </div>
+
+                    <div class="desno">
+                    <label for="datetime-local">Odaberi vrijeme</label>
                     
-                    <label for="text">IME I PREZIME
-                    <input type="text" placeholder="npr. Ivan Horvat">
-                    </label>
+                    <input type="datetime-local" id="date" name="date">
+                    </div>
+
+                </div>
+                    
+                    
                     
             </div>
 
             <div class="e">
-
-                    <input type="button" value="">
-
-
+                <button class="btn" type="submit">OSIGURAJ SVOJE MJESTO</button>
+            
             </div>
+            
+            </form>
+    
+        </div>    
     </div>
 </body>
 </html>
