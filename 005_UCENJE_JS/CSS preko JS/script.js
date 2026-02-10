@@ -1,0 +1,1 @@
+document.getElementById("tekst").classList.add("crveno");
