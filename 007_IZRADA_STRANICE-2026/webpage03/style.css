@@ -14,6 +14,7 @@
 .menu-item{
     display: block;
     font-size: 18px;
+    color: firebrick;
 }
 
 body {
@@ -26,5 +27,5 @@ body {
     width: 100px;
     position: relative;
     z-index: 2;
-    float: right;
+    float: right;   
 }
