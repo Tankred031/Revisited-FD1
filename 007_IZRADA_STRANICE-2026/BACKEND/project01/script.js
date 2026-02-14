@@ -17,4 +17,3 @@ let isWorking = isLightOn === true + batteryLevel > 0;
 console.log("Everything working?");
 console.log(isWorking);
 
-
