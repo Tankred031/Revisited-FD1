@@ -16,6 +16,8 @@ body, html {
   display: grid;
   grid-template-columns: 2fr 1fr;
   overflow: hidden;
+
+  gap: 20px;
 }
 
 h1, h2 {
@@ -36,3 +38,32 @@ img {
 /*
 https://t3.ftcdn.net/jpg/05/40/62/46/360_F_540624608_gGfUf4SuPCzzBPA3GPoH6nHphsSEMDeA.jpg
 */
+
+.info {
+  grid-template-areas: "name-job", "destription", "contacts";
+}
+
+.name-job {
+  grid-area: name-job;
+}
+
+.description {
+  grid-area: description;
+}
+
+.contacts {
+  grid-area: contacts;
+}
+
+@media (max-width: 400px) {
+  .card {
+    grid-template-columns: 1fr;
+    grid-template-areas: "portrait" "info";
+    padding: 0;
+  }
+  .info {
+    text-align: center;
+    padding: 4px;
+  }
+}
+
