@@ -203,9 +203,3 @@ console.log("prezime" in osoba);  // true
 console.log("prezime" in objektBezPrezimena);  // false
 
 
-
-
-
-
-
-
