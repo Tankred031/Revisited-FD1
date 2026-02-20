@@ -11,8 +11,6 @@ document.getElementById('izvedi').addEventListener('click', () => {
   // Za svaki zadatak zahtjevamo određene ulaze
 
   if (zadatak === '1'){
-    //console.log('1. zadatak');
-    //console.log(a);
     
 
     const x = Number(a);
@@ -27,17 +25,7 @@ document.getElementById('izvedi').addEventListener('click', () => {
     }
 
 
-    /*
-    if(a > b){
-      rezultat.innerHTML = a;
-      } else{
-      rezultat.innerHTML = b;
-      }    
-    return;
-    }
-    */
-
-
+    
   if(x > y){
     rezultat.innerHTML = x;
   } else if(x < y){
@@ -119,10 +107,7 @@ document.getElementById('izvedi').addEventListener('click', () => {
     }
 
     const danas = new Date().getFullYear();
-  //  rezultat.innerHTML = "Tvoja starost je: " + (danas-godinaRodenja);
-  //  return;
-  //  }
-
+  
 
     if((danas-godinaRodenja)>=18){
       rezultat.innerHTML = "Osoba je punoljetna"
@@ -132,43 +117,49 @@ document.getElementById('izvedi').addEventListener('click', () => {
   }
 
 
-  // 4. zadatak
-  //    Provjera punoljetnosti: 
-  //  Korisnik unosi godinu rođenja u polje A. 
-  //  Izračunaj njegovu dob u odnosu na tekuću godinu i ispiši je li punoljetan ili nije.
+  if(zadatak==='5'){
+    console.log("Rješavam zadatak 5");
+    
+    const x = Number(a);
+    const y = Number(b);
+    const z = Number(c);
+    const q = Number(d);
 
-/*
-  [ZADATAK 5]
- Pozitivan, negativan ili nula: 
- Za uneseni broj u polju A ispiši poruku je li on pozitivan, negativan ili je nula.
+    if(!x || !y || !z || !q){
+      rezultat.innerHTML = "Jedno od unosnih polja nije broj";
+    }
 
- ----------------------------------------------------------------
- 
- [ZADATAK 6]
- Parnost broja: 
- Provjeri je li uneseni broj u polju A paran ili neparan koristeći modulo operator (%).
+    if(x >= y && z >= q){
+      rezultat.innerHTML = x + z;
+    } else if(x >= y && z < q) {
+      rezultat.innerHTML = x + q;
+    } else if(x < y && z >= q) {
+      rezultat.innerHTML = y + z;
+    } else if(x < y && z < q){
+      rezultat.innerHTML = y + q;
+    } else if(x === 0 && y === 0 && q === 0 && z === 0) {
+     rezultat.innerHTML = "Rezultat je 0";
+    }
 
- ----------------------------------------------------------------
- 
- [ZADATAK 7]
- Ocjenjivanje: 
- Na temelju unesenog broja bodova (0-100) u polje A, ispiši ocjenu:
- 90-100: Odličan, 80-89: Vrlo dobar, 70-79: Dobar, 60-69: Dovoljan, <60: Nedovoljan.
+    return;
+  }    
 
- ----------------------------------------------------------------
- 
- [ZADATAK 8]
- Djeljivost: 
- Provjeri je li broj u polju A djeljiv s brojem u polju B bez ostatka. 
- Ispiši "Djeljiv je" ili "Nije djeljiv".  
-  */
+  if(zadatak==='6'){
 
+    const w = Number(d);
+    if(!w || w == 0){
+      rezultat.innerHTML = "Upiši broj u polje D (0 ne vrijedi)"
+      return;
+    }
+
+    rezultat.innerHTML = w * 10;
 
 
    
 
+  return;
+  }
   
-  // ovo će se ispisati ako u HTML dodatke option za zadatak a ovdje ga ne obradite
   rezultat.innerHTML = `Nepoznati zadatak ${zadatak}`;
 });
 
