@@ -153,11 +153,42 @@ document.getElementById('izvedi').addEventListener('click', () => {
     }
 
     rezultat.innerHTML = w * 10;
-
-
-   
-
   return;
+  }
+
+
+  if(zadatak==='7'){
+
+    
+    if(!b){
+      rezultat.innerHTML = 'Unesi ime grada u polje B'
+      return;
+    } 
+
+    if(b.toLowerCase() === 'osijek'){
+      rezultat.innerHTML = 'Točno! Osijek je sjedište Edunove'
+    } else {
+      rezultat.innerHTML = 'Navedeni grad nije sjedište Edunove'
+    }
+
+
+    return;
+  }
+
+  if(zadatak==='8'){
+
+    const x = Number(a);
+    const y = Number(d);
+
+    if(!x || x===0){
+      rezultat.innerHTML = 'A nije broj ili je 0';
+      return;
+    } else if(!y || y===0){
+      rezultat.innerHTML = 'D nije broj ili je 0';
+    } else {
+      rezultat.innerHTML = x * y;
+      return;
+    }
   }
   
   rezultat.innerHTML = `Nepoznati zadatak ${zadatak}`;
