@@ -1,0 +1,177 @@
+body {
+    background-color: #202020;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: blanchedalmond;
+    max-width: 1100px;
+    min-height: 100vh ;
+
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+
+h1 {
+    color: orangered;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    color: grey;
+}
+
+.title {
+    padding: 20px 0 ;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background-color: orangered;
+    color: white;
+}
+
+.left {
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: 90px;
+}
+
+.right {
+    display: flex;
+    justify-items: right;
+    margin-right: 90px;
+    gap: 2.5rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;    
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.box1 {   
+    border-left: solid 5px orangered;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+    margin-left: 65px;
+    font-size: large;
+}    
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 2rem;
+    padding: 15px;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card > p {
+    padding: 0 20px;
+}
+
+.corner {
+    text-align: end;
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.box2 {   
+    border-left: solid 5px orangered;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: large;
+}    
+
+.tableframe {
+    background-color: white;
+    padding: 10px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 2rem;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+
+table {
+    margin: 0 auto;
+    width: 95%; 
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+    border: none;
+    font-weight: bold;
+}
+
+th {
+    background-color: slategrey;
+    color: white;       
+}
+
+tr {
+    border-bottom: solid 1px lightgray;
+}
+
+.inputi {
+    background-color: slategray;
+    color: white;    
+    padding: 10px 20px 20px ;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 2rem;    
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+}
+
+.box3 {
+    color: white;
+    border-left: solid 5px white;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.btn {
+    color: white;
+    background-color: orangered;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input, select, textarea {
+    border-radius: 4px;
+}
