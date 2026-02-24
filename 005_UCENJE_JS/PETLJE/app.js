@@ -1,5 +1,9 @@
-let counter = 1;
-while (counter < 10){
-    console.log(counter);
-    counter++
-}
+const toDo = ["call mom", "dishes"];
+//let chore = toDo.pop();
+
+//console.log(chore);
+console.log(toDo);
+
+toDo.push("groceries");
+console.log(toDo);
+
