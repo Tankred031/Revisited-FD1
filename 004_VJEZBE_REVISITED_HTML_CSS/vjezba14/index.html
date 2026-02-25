@@ -1,76 +1,82 @@
-
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zadaća 14</title>
+  <link rel="stylesheet" href="style.css">  
+</head>
 <body>
+  <div class="container">
+    <div class="header">
+      <p class="cyan"><b>&lt;DevIvan&gt;</b></p>
+      <div>
+      <ul class="right">
+        <li><a href="#pocetna">Početna</a></li>
+        <li><a href="#vjestine">Vještine</a></li>
+        <li><a href="#projekti">Projekti</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+      </div>
+    </div>
+    <hr>
+      <h1 id="pocetna">Bok, ja sam Ivan.</h1>
+      <h1 class="cyan">Frontend Developer.</h1>
+      <p class="grey">Kreiram moderne, brze i responzivne web stranice koristeći najnovije <br>
+         tehnologije. Pretvaram ideje u stvarna digitalna iskustva.</p>
+      <button>Kontaktiraj me</button>
 
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="cell show-for-large">
-          <div class="callout">
-            A
-          </div>
+      <h2 id="vjestine">Moje Vještine</h2>
+
+      <div class="skills">
+        <div class="card">
+          <p class="title"><span>HTML & CSS</span></p>
+          <p>Semantički markup, Flexbox, Grid, Animacije</p>
         </div>
-        <div class="cell">
-          <div class="callout">
-            B
-          </div>
+        <div class="card">
+          <p class="title"><span>JavaScript</span></p>
+          <p>ES6+, DOM manipulacija, Fetch API</p>
         </div>
-        <div class="cell hide-for-small-only">
-          <div class="callout">
-            C
-          </div>
+        <div class="card">
+          <p class="title"><span>React</span></p>
+          <p>Komponente, State Management, Hooks</p>
         </div>
-        <div class="cell small-4">
-          <div class="callout">
-            D
-          </div>
-        </div>
-        <div class="cell small-4">
-          <div class="callout">
-            E
-          </div>
-        </div>
-        <div class="cell small-4">
-          <div class="callout">
-            F
-          </div>
-        </div>
-        <div class="cell small-4">
-          <div class="callout">
-            G
-          </div>
-        </div>
-        <div class="cell ">
-          <div class="callout">
-            H
-          </div>
-        </div>
-        <div class="cell medium-6">
-          <div class="callout">
-            I
-          </div>
-        </div>
-        <div class="cell medium-6">
-          <div class="callout">
-            J
-          </div>
+        <div class="card">
+          <p class="title"><span>UI/UX Dizajn</span></p>
+          <p>Figma, Prototyping, Wireframing</p>
         </div>
       </div>
-        
-    </div>
 
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+      <h2 id="projekti">Video Prezentacija</h2>
+
+        <div class="wrapper">
+          <p>Kako izgleda moj proces rada?</p>
+          <p class="small">Pogledajte kratki video o tome kako kodiram web stranice</p>
+
+          <img src="https://placehold.co/640x480" alt="">
+        </div>
+
+      <h2 id="kontakt">Pronađi me</h2>
+
+        <fieldset>Pošalji poruku
+
+          <input type="text" placeholder="Tvoje ime">
+
+          <input type="email" placeholder="Tvoj Email">
+
+          <textarea placeholder="Tvoja poruka"></textarea>
+
+          <input type="button">Pošalji
+
+        </fieldset>
+
+
+        <hr>
+    <footer>
+      &copy; 2025 Ivan Horvat. Sva prava pridržana.
+      Napravljeno s ❤️ i puno kave.
+    </footer>
+  </div>  
+</body>
 </html>
