@@ -117,3 +117,58 @@ img {
     border-radius: 12px;
     box-shadow: 10px 5px 15px 0px rgba(0,0,0,0.3);
 }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.inputi {
+    width: 60%;
+    flex: 1;
+    margin: 20px 0 20px 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, button {
+    background-color: slategray;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: silver;
+}
+
+.frame {
+    height: 200px;
+    width: 500px;
+    border: solid 1px gray;
+    margin-right: 40px;
+}
+
+button {
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+}
+
+.kontakt {
+    font-weight: bold;
+    color: white;
+}
+
+.btn {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
